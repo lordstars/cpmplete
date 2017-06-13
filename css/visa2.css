@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%; }
+
+input {
+  outline: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.head {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem; }
+  .head a {
+    text-decoration: none;
+    font-size: 3rem; }
+  .head p {
+    font-size: 2rem; }
+
+.content {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+  overflow: auto; }
+
+.banner {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .banner .lun {
+    width: 300%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    left: 0;
+    top: 0; }
+    .banner .lun li {
+      list-style: none;
+      width: 100%; }
+      .banner .lun li img {
+        width: 100%;
+        height: 100%; }
+  .banner .bar {
+    position: absolute;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 35%;
+    bottom: 1rem; }
+    .banner .bar span {
+      display: block;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      background: cyan; }
+      .banner .bar span.on {
+        background: red; }
+
+.area {
+  width: 100%;
+  padding: 1rem; }
+  .area input {
+    width: 90%;
+    height: 2.5rem;
+    line-height: 2rem;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    padding: 0.4rem 0; }
+  .area ul {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .area ul li {
+      width: 20%;
+      text-align: center;
+      list-style: none; }
+      .area ul li img {
+        width: 2rem;
+        height: 2rem;
+        color: red; }
+      .area ul li p {
+        font-size: 1.5rem;
+        padding-top: 0.3rem; }
+
+.empty {
+  width: 100%;
+  height: 1rem;
+  background: ghostwhite; }
+
+.server {
+  width: 100%;
+  display: flex;
+  padding: 2rem 0; }
+  .server .left {
+    width: 50%; }
+    .server .left ul {
+      display: flex;
+      width: 100%;
+      border-right: 1px solid gainsboro; }
+      .server .left ul li {
+        list-style: none;
+        text-align: center;
+        width: 100%; }
+        .server .left ul li img {
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%; }
+        .server .left ul li p {
+          margin-left: -4rem; }
+      .server .left ul .big {
+        font-size: 2rem; }
+      .server .left ul .small {
+        font-size: 1.4rem; }
+
+.h3 {
+  padding: 2rem 1rem;
+  font-size: 2rem; }
+
+.list {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid #CCCCCC; }
+  .list .title {
+    width: 80px;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    background-color: brown;
+    color: white;
+    border-radius: 3rem;
+    text-align: center; }
+
+.list-in {
+  padding: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative; }
+  .list-in li {
+    width: 30%;
+    list-style: none;
+    position: relative; }
+    .list-in li div {
+      width: 100%;
+      position: relative; }
+      .list-in li div img {
+        width: 100%;
+        height: 100%;
+        position: relative; }
+      .list-in li div .meng {
+        position: absolute;
+        width: 100%;
+        height: 98%;
+        background: rgba(0, 0, 0, 0.3);
+        left: 0;
+        top: 0; }
+      .list-in li div p {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        font-size: 2rem;
+        color: white; }
+    .list-in li p {
+      padding-top: 0.5rem;
+      color: red;
+      font-size: 1.5rem; }
+      .list-in li p span {
+        display: inline-block;
+        width: 25px;
+        height: 10px;
+        background: url("../img/221.jpg"); }
+
+.list2 {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+  justify-content: space-around; }
+  .list2 .list2-l {
+    width: 30%; }
+    .list2 .list2-l img {
+      width: 100%;
+      height: 100%; }
+  .list2 .list2-r {
+    width: 70%;
+    padding-left: 1rem; }
+    .list2 .list2-r .r-1 {
+      font-size: 1.8rem;
+      padding-bottom: 1rem; }
+    .list2 .list2-r .r-2 {
+      font-size: 1.7rem;
+      color: red; }
+
+.free {
+  width: 100%;
+  display: flex;
+  padding: 1rem; }
+  .free .free-l {
+    width: 50%; }
+    .free .free-l li {
+      width: 100%;
+      list-style: none; }
+      .free .free-l li img {
+        width: 100%;
+        height: 100%; }
+
+footer ul {
+  display: flex;
+  justify-content: space-around; }
+  footer ul li {
+    list-style: none;
+    text-align: center; }
+    footer ul li a {
+      text-decoration: none;
+      color: black; }
+      footer ul li a:link {
+        color: black; }
+      footer ul li a:visited {
+        color: black; }
+      footer ul li a:hover {
+        color: red; }
+      footer ul li a:active {
+        color: red; }
+      footer ul li a img {
+        width: 2rem; }
+      footer ul li a p {
+        font-size: 1.7rem;
+        padding-top: 0.5rem; }
+
+/*# sourceMappingURL=visa2.css.map */

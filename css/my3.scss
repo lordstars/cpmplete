@@ -1,0 +1,149 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    outline: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+}
+.head{
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    background: orangered;
+    display: flex;
+    padding: 0rem 1rem;
+    justify-content: space-around;
+    p{
+        font-size: 2rem;
+        color: white;
+    }
+}
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 3rem;
+    border-bottom: 1px solid #CCCCCC;
+    li{
+        width: 50%;
+        text-align: center;
+        list-style: none;
+        border-right: 1px solid #ccc;
+         
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.7rem;
+           &:link{
+                color: black;
+            }
+            &:visited{
+                color: black;
+            }
+            &:hover{
+                color: red;
+                border-bottom: 1px solid red;
+            }
+            &:active{
+                color: red;
+            }
+        }
+    }
+}
+.count{
+    width: 100%;
+    p{
+        width: 100%;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+        padding-left:3rem ;
+        border-bottom: 1px solid #ccc;
+        input{
+            border: none;
+            padding-left: 2rem;
+            font-size: 1.7rem;
+        }
+    }
+}
+.login2{
+    width: 90%;
+    height: 3rem;
+    line-height: 3rem;
+    border: 1px solid red;
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+.foot{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    p:first-child{
+        color: gray;
+        font-size: 1.6rem;
+    }
+    p:nth-child(2){
+        color: red;
+        font-size: 1.6rem;
+    }
+}
+footer {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+        li {
+            list-style: none;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: black;
+                &:link{
+                    color: black;
+                }
+                &:visited {
+                    color:black;
+                }
+                &:hover {
+                    color: red;
+                }
+                &:active {
+                    color: red;
+                }
+                img {
+                    width: 2rem;
+                }
+                p {
+                    font-size: 1.7rem;
+                    padding-top: 0.2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .return{
+        a{
+            text-decoration: none;
+            font-size: 3rem;
+            color: red;
+            font-weight: bolder;
+        }
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        
+    }
+    .name{
+        width: 100%;
+        height: 6rem;
+        line-height: 6rem;
+        position: absolute;
+        bottom: 0rem;
+        background: rgba(0,0,0,0.5);
+        p{
+            font-size: 3rem;
+            color: white;
+            font-weight: bolder;
+            padding: 1rem;
+        }
+    }
+}
+.hot{
+    padding: 1rem;
+    font-size: 2rem;
+}
+.list{
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    li{
+        width: 30%;
+        text-align: center;
+        list-style: none;
+        border: 1px solid #CCCCCC;
+        border-radius: 3rem;
+        font-size: 1.6rem;
+        padding: 0.5rem 0;
+    }
+}
+.empty{
+    width: 100%;
+    height: 1rem;
+    background: gainsboro
+}
+.wen{
+    padding: 1rem;
+    border-bottom: 1px solid #CCCCCC;
+    p{
+        font-size: 2rem;
+    }
+    .wen2{
+        padding-top: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .wen-l{
+            width: 60%;
+            p{
+                font-size: 1.6rem;
+                line-height: 2.5rem;
+            }
+        }
+        .wen-r{
+            padding-left: 0.5rem;
+            width: 40%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+#place{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    li{
+        list-style: none;
+        width: 30%;
+        img{
+            width: 100%;
+        }
+        p{
+            font-size: 1.6rem;
+            padding-top: 0.5rem;
+        }
+    }
+}

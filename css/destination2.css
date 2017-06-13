@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: auto; }
+
+.banner {
+  position: relative;
+  width: 100%; }
+  .banner img {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+  .banner .return {
+    position: absolute;
+    top: 1rem;
+    left: 1rem; }
+    .banner .return a {
+      text-decoration: none;
+      font-size: 3rem;
+      color: red;
+      font-weight: bolder; }
+  .banner .name {
+    width: 100%;
+    height: 6rem;
+    line-height: 6rem;
+    position: absolute;
+    bottom: 0rem;
+    background: rgba(0, 0, 0, 0.5); }
+    .banner .name p {
+      font-size: 3rem;
+      color: white;
+      font-weight: bolder;
+      padding: 1rem; }
+
+.hot {
+  padding: 1rem;
+  font-size: 2rem; }
+
+.list {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-around; }
+  .list li {
+    width: 30%;
+    text-align: center;
+    list-style: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 3rem;
+    font-size: 1.6rem;
+    padding: 0.5rem 0; }
+
+.empty {
+  width: 100%;
+  height: 1rem;
+  background: gainsboro; }
+
+.wen {
+  padding: 1rem;
+  border-bottom: 1px solid #CCCCCC; }
+  .wen p {
+    font-size: 2rem; }
+  .wen .wen2 {
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .wen .wen2 .wen-l {
+      width: 60%; }
+      .wen .wen2 .wen-l p {
+        font-size: 1.6rem;
+        line-height: 2.5rem; }
+    .wen .wen2 .wen-r {
+      padding-left: 0.5rem;
+      width: 40%; }
+      .wen .wen2 .wen-r img {
+        width: 100%; }
+
+#place {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around; }
+  #place li {
+    list-style: none;
+    width: 30%; }
+    #place li img {
+      width: 100%; }
+    #place li p {
+      font-size: 1.6rem;
+      padding-top: 0.5rem; }
+
+/*# sourceMappingURL=destination2.css.map */

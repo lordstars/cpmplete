@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%; }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 3rem; }
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow: auto; }
+
+.banner {
+  width: 100%;
+  height: 250px;
+  position: relative; }
+  .banner img {
+    width: 100%;
+    height: 250px; }
+  .banner .none {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); }
+  .banner .name {
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+    text-align: center;
+    color: white; }
+    .banner .name img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%; }
+    .banner .name .one {
+      font-size: 1.7rem;
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem; }
+    .banner .name .two {
+      font-size: 1.5rem; }
+  .banner .return {
+    position: absolute;
+    left: 1rem;
+    top: 1rem; }
+    .banner .return a {
+      color: white;
+      font-size: 2rem; }
+
+.word {
+  padding: 1rem;
+  width: 100%;
+  font-size: 2rem; }
+
+.banner2 {
+  width: 100%; }
+  .banner2 img {
+    width: 100%; }
+  .banner2 p {
+    font-size: 1.7rem;
+    padding: 1rem; }
+
+/*# sourceMappingURL=find-2.css.map */
